@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nav-title {
@@ -14,7 +14,7 @@ body {
 
 .image-caption {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .main-title {
@@ -25,11 +25,13 @@ body {
 .subheader-text {
   font-size: 20px;
   font-weight: 700;
+  text-align: center;
 }
 
 .body-text {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
+  text-align: center;
 }
 
 .project-card-text {
