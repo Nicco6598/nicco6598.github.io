@@ -30,20 +30,24 @@ a.icon-link:hover {
   width: 100%;
   padding: 30px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   top: 0;
+  background-color: #ffffff00;
   left: 0;
 }
 
 .nav-title-link {
   color: black;
   text-decoration: none;
+  transition: color 0.5s;
 }
 
 .nav-title-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #946dff;
+  transition: color 0.5s;
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
@@ -59,20 +63,55 @@ a.icon-link:hover {
 
 a.button {
   padding: 8px 16px;
-  border: 3px solid #141414;
+  border: 2px solid #0c0c0c;
   border-radius: 50px;
-  color: black;
+  color: #0c0c0c;
   text-decoration: none;
   width: fit-content;
-  display: flex;
+  display: inline;
   gap: 5px;
   align-items: center;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+  transition: box-shadow 0.4s;
+}
+
+a.button2 {
+  padding: 8px 16px;
+  border: 2px solid #946dff;
+  border-radius: 50px;
+  color: #946dff;
+  text-decoration: none;
+  width: fit-content;
+  display: inline;
+  gap: 5px;
+  align-items: center;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+  transition: box-shadow 0.4s;
 }
 
 a.button:hover {
-  text-decoration: underline;
   text-decoration-thickness: 2px;
   cursor: pointer;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  color: 0c0c0c;
+  box-shadow: 0px 5px 15px #888888;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+  transition: box-shadow 0.4s;
+}
+
+a.button2:hover {
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+  background-color: #946dff;
+  color: white;
+  box-shadow: 0px 5px 15px #888888;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+  transition: box-shadow 0.4s;
 }
 
 
