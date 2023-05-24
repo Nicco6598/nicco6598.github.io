@@ -28,23 +28,31 @@ a.icon-link:hover {
 /* Navbar Styling */
 
 .navbar {
-  width: 100%;
-  padding: 30px 100px;
+  width: fit-content;
+  text-align: center;
+  padding: 1em;
   display: flex;
   justify-content:center;
   align-items:center;
   position:fixed;
-  top: 0;
-  background-color: #ffffff;
-  border-radius: 0px 0px 20px 20px;
-  left: 10;
-  box-shadow: 0px 2px 15px #888888;
+  top: 25px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #ffffff8f;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px #bbbbbb;
   z-index: 100;
+}
+
+.nav-menu:active { 
+  color: #28A745; 
 }
 
 .navbar > a{
   margin-left:20px;
   margin-right:20px;
+  text-align: center;
+  justify-content: center;
 }
 
 .nav-menu{
@@ -185,8 +193,16 @@ a.icon-link:hover {
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
   .navbar {
-    padding: 20px 20px;
-    background-color: white
+    padding: 1em;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
   }
 
   .card {
@@ -242,6 +258,8 @@ a.button {
   display: inline-block;
   gap: 5px;
   align-items: center;
+  text-align: center;
+  box-shadow: 0px 2.5px 1px #0c0c0c;
   transition: color 0.3s;
   transition: background-color 0.3s;
   transition: box-shadow 0.4s;
@@ -250,25 +268,27 @@ a.button {
 
 a.button2 {
   padding: 8px 16px;
-  background-color: #ffffff;
-  border-radius: 50px;
+  border: 2px solid #946dff;
+  border-radius: 15px;
   color: #946dff;
+  text-align: center;
   text-decoration: none;
   width: fit-content;
   display: inline;
   gap: 5px;
   align-items: center;
   transition: color 0.3s;
-  box-shadow: 0px 5px 15px #888888;
+  box-shadow: 0px 2.5px 1px #946dff;
   transition: background-color 0.3s;
   transition: box-shadow 0.4s;
 }
 
 a.button2 > span{
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   align-items: center;
   text-align: center;
+  justify-content: center;
   text-transform: uppercase;
 }
 
@@ -290,7 +310,7 @@ a.button2:hover {
   cursor: pointer;
   background-color: #946dff;
   color: white;
-  box-shadow: 0px 5px 15px #888888;
+  box-shadow: 0px 5px 15px #946dff7c;
   transition: color 0.3s;
   transition: background-color 0.3s;
   transition: box-shadow 0.4s;
