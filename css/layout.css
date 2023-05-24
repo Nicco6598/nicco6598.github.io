@@ -30,6 +30,8 @@ body {
 
 
 
+
+
 /* Portfolio Header */
 
 #portfolio-header {
@@ -43,6 +45,8 @@ body {
   flex-direction: column;
   gap: 10px;
   flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-header-image {
@@ -57,6 +61,7 @@ body {
   flex-direction: column;
   gap: 34px;
   flex-basis: 50%;
+  align-items: center;
 }
 
 
@@ -85,12 +90,15 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  align-items: center;
 }
 
 .projects-container {
   display: flex;
-  gap: 34px 16px;
+  gap: 30px 15px;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:flex-start;
 }
 
     /* Project Cards */

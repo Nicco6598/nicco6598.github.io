@@ -29,15 +29,17 @@ a.icon-link:hover {
 
 .navbar {
   width: 100%;
-  padding: 30px 50px;
+  padding: 30px 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: #ffffff00;
-  border-radius: 15px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 20px 20px;
   left: 0;
+  box-shadow: 0px 2px 15px #888888;
+  z-index: 100;
 }
 
 .card {
@@ -51,8 +53,8 @@ a.icon-link:hover {
 }
 
 .card:hover .image {
-  transform: scale(1.1);
-  opacity: 0.45;
+  transform: scale(1.15);
+  opacity: 0.25;
 }
 
 .image {
@@ -75,7 +77,7 @@ a.icon-link:hover {
   transition: opacity 0.5s;
 }
 
-.card .Tag {
+.Tag {
   z-index: 3;
   padding: 5px 10px ;
   top: 5px;
@@ -91,7 +93,8 @@ a.icon-link:hover {
   box-shadow: 0px 2px 10px #888888;
 }
 
-.card .TagF {
+
+.TagF {
   z-index: 3;
   padding: 5px 10px ;
   top: 5px;
@@ -107,7 +110,7 @@ a.icon-link:hover {
   box-shadow: 0px 2px 10px #888888;
 }
 
-.card .TagNew {
+.TagNew {
   z-index: 3;
   padding: 5px 10px ;
   top: 5px;
@@ -130,11 +133,14 @@ a.icon-link:hover {
 .card-title {
   font-size: 18px;
   margin: 0;
+  font-weight: 700;
 }
 
 .card-description {
   font-size: 14px;
   margin: 10px 0;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .card-link {
@@ -150,7 +156,7 @@ a.icon-link:hover {
 
 .nav-title-link:hover {
   text-decoration: none;
-  color: #ff9f32;
+  color: #6200ff;
   transition: color 0.5s;
 }
 
@@ -160,6 +166,45 @@ a.icon-link:hover {
     padding: 20px 20px;
     background-color: white
   }
+
+  .card {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px #888888;
+  }
+
+  .card-title {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .card-description {
+    font-size: 8px;
+    margin: 10px 0;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .Tag {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .TagF {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .TagNew {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  
+  
 }
 
 
@@ -178,6 +223,7 @@ a.button {
   transition: color 0.3s;
   transition: background-color 0.3s;
   transition: box-shadow 0.4s;
+  align-items: center;
 }
 
 a.button2 {
