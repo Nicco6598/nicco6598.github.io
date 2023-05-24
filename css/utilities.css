@@ -75,6 +75,54 @@ a.icon-link:hover {
   transition: opacity 0.5s;
 }
 
+.card .Tag {
+  z-index: 3;
+  padding: 5px 10px ;
+  top: 5px;
+  left: 15px;
+  border-radius: 20px;
+  background-color: #00adfd;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  width: fit-content;
+  position: absolute;
+  box-shadow: 0px 2px 10px #888888;
+}
+
+.card .TagF {
+  z-index: 3;
+  padding: 5px 10px ;
+  top: 5px;
+  left: 15px;
+  border-radius: 20px;
+  background-color: #fd0076;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  width: fit-content;
+  position: absolute;
+  box-shadow: 0px 2px 10px #888888;
+}
+
+.card .TagNew {
+  z-index: 3;
+  padding: 5px 10px ;
+  top: 5px;
+  left: 15px;
+  border-radius: 20px;
+  background-color: #ff9100;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  width: fit-content;
+  position: absolute;
+  box-shadow: 0px 2px 10px #888888;
+}
+
 .card:hover .card-content {
   opacity: 1;
 }
@@ -102,7 +150,7 @@ a.icon-link:hover {
 
 .nav-title-link:hover {
   text-decoration: none;
-  color: #327aff;
+  color: #ff9f32;
   transition: color 0.5s;
 }
 
