@@ -35,6 +35,13 @@ body {
   text-align: center;
 }
 
+.skill-text {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8) ;
+}
+
 .project-card-text {
   overflow: hidden;
   text-overflow: ellipsis;
