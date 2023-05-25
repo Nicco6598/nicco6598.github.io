@@ -3,16 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
     <link rel="icon" href="./assets/images/DALL·E 2023-05-18 10.16.13.png" />
 		<title>Marco Niccolini Portfolio</title>
     <meta name="description" content="A portfolio template for the Unemployables community.">
@@ -29,10 +19,8 @@
 		<script defer src="./js/script.js"></script>
 	</head>
 	<body>
-    <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
         <span class="nav-title">MN Portfolio</span>
         <a class="nav-menu" href="index.html#about-section">About</a>
         <a class="nav-menu" href="index.html#my-work-section">Portfolio</a>
@@ -44,34 +32,60 @@
           <image src="./assets/icons/github.svg" class="change-my-color"/>
           <span class="button-text">Github</span> 
         </a>
-         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
       </a>
     </div>
 
 
+    <div class="container">
+      <span class="big-circle"></span>
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Entriamo in contatto</h3>
+          <p class="text">
+            Contattami per qualsiasi informazione o per richiedere una collaborazione.
+            Qua sotto potete trovare la mia E-mail e a lato un form per automatizare la richiesta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="assets/icons/pin.svg" class="icon" alt="" />
+              <p>Pioltello (MI)</p>
+            </div>
+            <div class="information">
+              <img src="assets/icons/mail.svg" class="icon" alt="" />
+              <p>nicco6598@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contattami</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" placeholder="Nome e Cognome" required/>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" placeholder="E-mail" required/>>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" placeholder="Messaggio" required></textarea>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
 
     <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
-
-        This should be the same across all pages.
-      -->
       <a class="icon-link" target="_blank" href="https://instagram.com/Niccu.98">
         <image src="./assets/icons/instagram.svg" class="footer-icon"/>
       </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
       <a class="icon-link" target="_blank" href="https://twitter.com/DasNicco">
         <image src="./assets/icons/twitter.svg" class="footer-icon"/>
       </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
       <a class="icon-link" target="_blank" href="mailto:nicco6598@gmail.com">
         <image src="./assets/icons/mail.svg" class="footer-icon"/>
       </a>
