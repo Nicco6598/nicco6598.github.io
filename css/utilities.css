@@ -279,61 +279,6 @@ a.icon-link:hover {
   transition: color 0.5s;
 }
 
-/* Small devices (portrait tablets and large phones, 800px and below) */
-@media only screen and (max-width: 800px) {
-  .navbar {
-    padding: 1em;
-    background-color: white;
-    width: 100%;
-    text-align: center;
-    top: 0px;
-    margin: auto;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    position:fixed;
-  }
-
-  .card {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    margin: 20px;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0px 5px 15px #888888;
-  }
-
-  .card-title {
-    font-size: 12px;
-    margin: 0;
-    font-weight: 700;
-  }
-  .card-description {
-    font-size: 8px;
-    margin: 10px 0;
-    font-weight: 500;
-    font-style: italic;
-  }
-
-  .Tag {
-    font-size: 10px;
-    font-weight: 500;
-  }
-
-  .TagF {
-    font-size: 10px;
-    font-weight: 500;
-  }
-
-  .TagNew {
-    font-size: 10px;
-    font-weight: 500;
-  }
-  
-  
-}
-
 
 /* Button Styling */
 
@@ -457,4 +402,108 @@ a.no-underline:hover {
   #footer {
     padding: 20px 20px;
   }
+
+  .navbar {
+    padding: 1em;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    margin: auto;
+    display: inline-block;
+    border-radius: 0px 0px 15px 15px;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+  }
+
+  .navbar > a {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .nav-menu{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .card {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px #888888;
+  }
+
+  .card-title {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 700;
+  }
+  .card-description {
+    font-size: 8px;
+    margin: 10px 0;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .Tag {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .TagF {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .TagNew {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  a.button{
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: inline-block;  
+    border-radius: 13px;
+    text-align: center;
+  }
+
+  a.button2{
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: inline-block;  
+    border-radius: 13px;
+    text-align: center;
+  }
+
+  a.button > span{
+    font-size: 12px;
+    font-weight: 700;
+    align-items: center;
+  }
+
+  a.button2 > span{
+    font-size: 10px;
+    font-weight: 700;
+    align-items: center;
+    display: inline-block; 
+  }
+
+  .change-my-color{
+    display: none;
+  }
+  
 }
