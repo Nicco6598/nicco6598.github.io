@@ -535,7 +535,7 @@ body {
       }
     
       #portfolio-header {
-        flex-direction: column;
+          margin-top: 170px;
       }
     
       .project-card {

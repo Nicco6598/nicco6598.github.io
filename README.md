@@ -2,9 +2,6 @@
 # Unemployables Portfolio Template
 A template for the Unemployables who need to showcase their creative work, whatever that may be.
 <br /><br />
-**Demo:** https://ndoherty-xyz.github.io/unemployables-portfolio-template/
-<br />
-<br />
 
 #### Table of Contents:
 <a href="https://github.com/ndoherty-xyz/unemployables-portfolio-template#about-this-template">About this template</a></br>
