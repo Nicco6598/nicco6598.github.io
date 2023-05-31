@@ -39,6 +39,7 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-top: -30px;
 }
 
 #portfolio-header-image-container {
@@ -223,13 +224,13 @@ body {
     }
     
     .contact-form {
-      background-color: #946dff;
+      background-color: #ff9e65;
       position: relative;
     }
     
     .circle {
       border-radius: 50%;
-      background: linear-gradient(135deg, transparent 20%, #c6b4f8);
+      background: linear-gradient(135deg, transparent 20%, #ffb489);
       position: absolute;
     }
     
@@ -252,7 +253,7 @@ body {
       position: absolute;
       width: 26px;
       height: 26px;
-      background-color: #c6b4f8;
+      background-color: #ffb489;
       transform: rotate(45deg);
       top: 50px;
       left: -13px;
@@ -398,7 +399,7 @@ body {
     }
     
     .contact-info .title {
-      color: #946dff;
+      color: #ff9e65;
     }
     
     .text {
@@ -444,7 +445,7 @@ body {
       position: absolute;
       width: 110px;
       height: 100px;
-      border: 22px solid #c6b4f8;
+      border: 22px solid #ffb489;
       border-radius: 50%;
       bottom: -77px;
       right: 50px;
@@ -456,7 +457,7 @@ body {
       width: 500px;
       height: 500px;
       border-radius: 50%;
-      background: linear-gradient(to bottom, #9264ff, #000000);
+      background: linear-gradient(to bottom, #ff9e65, #000000);
       bottom: 50%;
       right: 50%;
       transform: translate(-40%, 38%);
@@ -483,8 +484,20 @@ body {
     }
     
     @media (max-width: 850px) {
+
+      .container {
+        padding: 1.5rem;
+        margin-top: 247px;
+        margin-bottom: 50px;
+        z-index: 0;
+      }
+      
       .form {
         grid-template-columns: 1fr;
+      }
+
+      #portfolio-header{
+        margin-top: 170px;
       }
     
       .contact-info:before {
@@ -514,15 +527,26 @@ body {
       .text {
         margin: 1rem 0 1.5rem 0;
       }
-    
-      .social-media {
-        padding: 1.5rem 0 0 0;
-      }
     }
     
     @media (max-width: 480px) {
+      #main-content {
+        margin: 150px 50px;
+      }
+    
+      #portfolio-header {
+        flex-direction: column;
+      }
+    
+      .project-card {
+        max-width: calc((100% - 16px) / 2);
+      }
+      
       .container {
         padding: 1.5rem;
+        margin-top: 247px;
+        margin-bottom: 50px;
+        z-index: 0;
       }
     
       .contact-info:before {
@@ -587,21 +611,6 @@ body {
 @media only screen and (max-width: 1000px) {
   #main-content {
     margin: 225px 75px;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 800px and below) */
-@media only screen and (max-width: 800px) {
-  #main-content {
-    margin: 150px 50px;
-  }
-
-  #portfolio-header {
-    flex-direction: column;
-  }
-
-  .project-card {
-    max-width: calc((100% - 16px) / 2);
   }
 }
 
