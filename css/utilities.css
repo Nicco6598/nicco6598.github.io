@@ -426,7 +426,7 @@ a.no-underline:hover {
     height: fit-content;
   }
   .navbar > a {
-    display: flex;
+    display: block;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
