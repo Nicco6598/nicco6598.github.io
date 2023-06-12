@@ -473,7 +473,7 @@ body {
       top: calc(50% - 180px);
       left: calc(50% - 180px);
     }
-    
+
     .square {
       position: absolute;
       height: 400px;
@@ -491,6 +491,14 @@ body {
         margin-bottom: 50px;
         z-index: 0;
       }
+
+      #portfolio-header-text-container {
+        width: inherit;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        flex: row;
+      }
       
       .form {
         grid-template-columns: 1fr;
@@ -498,6 +506,9 @@ body {
 
       #portfolio-header{
         margin-top: 170px;
+        width: auto;
+        display: block;
+        margin-bottom: 10px;
       }
     
       .contact-info:before {
