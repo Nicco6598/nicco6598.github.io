@@ -14,6 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #dfdfdf;
+  height: auto;
 }
 
 
@@ -39,7 +40,6 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
-  margin-top: -30px;
 }
 
 #portfolio-header-image-container {
@@ -487,7 +487,7 @@ body {
 
       .container {
         padding: 1.5rem;
-        margin-top: 247px;
+        margin-top: 40px;
         margin-bottom: 50px;
         z-index: 0;
       }
@@ -512,6 +512,8 @@ body {
         width: auto;
         display: block;
         margin-bottom: 10px;
+        margin-top: auto;
+        position: relative;
       }
     
       .contact-info:before {
@@ -549,7 +551,7 @@ body {
       }
     
       #portfolio-header {
-          margin-top: 170px;
+          margin-top: 20px;
       }
     
       .project-card {
@@ -558,7 +560,7 @@ body {
       
       .container {
         padding: 1.5rem;
-        margin-top: 247px;
+        margin-top: 40px;
         margin-bottom: 50px;
         z-index: 0;
       }
