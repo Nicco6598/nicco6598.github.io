@@ -199,7 +199,7 @@ body {
 
     .container-sk{
       position: relative;
-      width: 70%;
+      width: 80%;
       min-height: 30vh;
       padding: 1rem;
       background-color: #dfdfdf;
@@ -490,6 +490,10 @@ body {
         margin-top: 247px;
         margin-bottom: 50px;
         z-index: 0;
+      }
+
+      .container-sk {
+        width: 100%;
       }
 
       #portfolio-header-text-container {
