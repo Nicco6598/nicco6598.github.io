@@ -169,8 +169,8 @@ a.icon-link:hover {
 }
 
 .card {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   position: relative;
   display: flex;
   margin: 20px;
@@ -426,7 +426,7 @@ a.no-underline:hover {
 
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
   #footer {
     padding: 20px 20px;
   }
@@ -441,10 +441,11 @@ a.no-underline:hover {
   #hamnav label { 
     display: inline-block; 
     color: rgb(0, 0, 0);
-    background: #ffffff00;
+    background: #00000000;
     font-style: normal;
     top:10px;
-    width: fit-content;
+    text-align: center;
+    width: 12%;
     box-shadow: 0px 5px 15px #47474777;
     left: 10px;
     z-index: 10;
